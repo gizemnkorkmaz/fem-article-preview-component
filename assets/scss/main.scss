@@ -136,12 +136,29 @@ body {
   letter-spacing: 5px;
   padding: 10px 20px;
   border-radius: 0 0 10px 10px;
+  cursor: pointer;
+  @media (min-width: $mobile) {
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+    width: 175px;
+    padding: 5px 15px;
+    font-size: 10px;
+    border-radius: 10px;
+  }
   .share-icon {
     background-color: $light-greyish-blue;
     padding: 4px;
     border-radius: 50%;
     margin-left: 35px;
     cursor: pointer;
+    @media (min-width: $mobile) {
+      position: absolute;
+      top: 60px;
+      left: 80px;
+      padding: 8px;
+      margin: -10px;
+    }
   }
 }
 
