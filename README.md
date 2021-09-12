@@ -1,1 +1,1 @@
-fem-article-preview-component-indol.vercel.app
+https://fem-article-preview-component-indol.vercel.app/
