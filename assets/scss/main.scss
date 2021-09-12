@@ -119,13 +119,32 @@ body {
       padding: 9px;
       border-radius: 50%;
       margin-left: 35px;
+      cursor: pointer;
       @media (min-width: $mobile) {
         margin-right: 15px;
       }
     }
   }
-
-  .hide-section {
-    display: none;
+}
+.social-links {
+  background-color: $dark-greyish-blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: $desaturated-dark-blue;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 10px 20px;
+  border-radius: 0 0 10px 10px;
+  .share-icon {
+    background-color: $light-greyish-blue;
+    padding: 4px;
+    border-radius: 50%;
+    margin-left: 35px;
+    cursor: pointer;
   }
+}
+
+.hide-section {
+  display: none;
 }
